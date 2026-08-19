@@ -33,8 +33,14 @@ This registers the repo as a marketplace. You only do it once.
 ## Browse and install plugins
 
 ```bash
-claude plugin marketplace browse aimax-marketplace      # list available plugins
-claude plugin install <plugin-name>@aimax-marketplace   # install a specific one
+# list available plugins
+claude
+/plugin
+choose marketplaces
+choose aimax-marketplace
+choose browse plugins
+# install a specific one
+claude plugin install <plugin-name>@aimax-marketplace   
 ```
 
 ## Plugins
